@@ -19,11 +19,23 @@ The framework deliberately separates these perspectives. Running all six before 
 
 ## Install
 
+### Via Skillsmith (recommended)
+
 ```bash
 skillsmith install smith-horn/six-layer-product-research
 ```
 
-Or copy to `~/.claude/skills/six-layer-product-research/`.
+### Via Git (no dependencies)
+
+```bash
+git clone https://github.com/smith-horn/six-layer-product-research.git ~/.claude/skills/six-layer-product-research
+```
+
+### Manual Download
+
+Download the [latest release](https://github.com/smith-horn/six-layer-product-research/releases/latest) and extract to `~/.claude/skills/six-layer-product-research/`.
+
+After installing by any method, restart Claude Code. The skill will be available as `/six-layer-product-research`.
 
 ## Usage
 
